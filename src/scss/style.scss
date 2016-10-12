@@ -11,8 +11,6 @@
 // SCSS MIXINS
 //----------------------------------*/
 
-@import 'mixins/_position.scss';
-@import 'mixins/_brand.scss';
 
 //----------------------------------*\
 // VENDOR
@@ -20,7 +18,6 @@
 
 @import 'vendor/bootstrap.scss';
 @import 'vendor/flexboxgrid.scss';
-@import 'vendor/_waves.scss';
 
 //----------------------------------*\
 // OBJECTS & MODULES
@@ -33,13 +30,7 @@
 @import 'modules/_buttons.scss';
 @import 'modules/_syntax-highlighter.scss';
 
-@import 'partials/brand.scss';
-@import 'partials/navigation.scss';
-@import 'partials/card.scss';
 @import 'partials/footer.scss';
-
-@import 'partials/book-main.scss';
-@import 'partials/book-sidebar.scss';
 
 @import 'partials/_main.scss';
 

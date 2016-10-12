@@ -40,7 +40,8 @@ var config = {
     'src/js/vendor/briefcase.min.js',
     'src/js/modules/_config.js',
     'src/js/modules/_tools.js',
-    'src/js/modules/*',
+    'src/js/modules/challenge.js',
+    'src/js/modules/submissions.js',
     'src/js/scripts.js'
   ],
   cssPaths: [

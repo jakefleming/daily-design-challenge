@@ -5,17 +5,19 @@
   /* globals
      config,
      tools,
-     testimonials,
-     bookSite
+     challenge,
+     submissions
   */
 
   // Set basics up
   tools.start();
 
-  // Start testimonials cycling
-  setInterval(function(){ testimonials.cycle(); }, config.testimonialCycleSpeed);
+  window.onload = function() {
+    // Get a new challenge
+    challenge.updateChallenge();
 
-  // Do stuff for the the reading site
-  bookSite.start();
+    // Build the leaderboard
+    submissions.buildLeaderboard();
+  }
 
 })(jQuery, window, document);

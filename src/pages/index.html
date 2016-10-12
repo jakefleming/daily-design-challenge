@@ -11,18 +11,23 @@
   <div class="row around-xs">
     <div class="col-xs-11 col-sm-8 col-md-6">
       <h1>Daily Design Challenge</h1>
-      <p>
+      <p class="text-center">
         Do this. Every day.
       </p>
-      <h2>Blah blah blah</h2>
+      <hr>
+      <div class="spinner challenge-spinner"></div>
+      <div class="challenge-loaded">
+        <h2 id="challengeText" class="text-center"></h2>
+        <h4 class="text-center">Submitted by <span id="authorText"></span>.</h4>
+      </div>
     </div>
   </div>
 
   <div class="row dark">
     <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
       <h1>Leaderboard</h1>
-      <ul>
-        <li>blah</li>
+      <div class="spinner leaderboard-spinner"></div>
+      <ul id="leaderboard" class="leaderboard-loaded">
       </ul>
     </div>
   </div>
