@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  background: $color-background-light;
+  color: $color-text;
+  margin: 0;
+  overflow-x: hidden;
+  quotes: "“" "”" "‘" "’";
+
+  &.baseline-grid-on:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    $grid-line: 96.3%;
+    background: -webkit-linear-gradient($grid-1, $grid-1 $grid-line, $grid-2 $grid-line, $grid-2);
+    background: -o-linear-gradient($grid-1, $grid-1 $grid-line, $grid-2 $grid-line, $grid-2);
+    background: linear-gradient($grid-1, $grid-1 $grid-line, $grid-2 $grid-line, $grid-2);
+    background-size: 100% $lead-single;
+  }
+}
+
+a {
+  transition: $transition-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: $transition-in;
+  }
+
+  &.no-underline {
+    text-decoration: none;
+  }
+
+  &:active {
+    position: relative;
+    top: 2px;
+  }
+}
+
+p {
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:visited {
+  text-decoration: underline;
+  color: $color-link;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-link-hover;
+  }
+}
+
+nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.full {
+  width: 100%;
+}
+
+.text-left    { text-align: left; }
+.text-center  { text-align: center; }
+.text-right   { text-align: right; }
+.text-hide    { text-indent: -999999px; position: absolute; }
+.text-lighter { opacity: 0.85; }
+
+.fixed {
+  position: fixed !important;
+}
+
+.bare {
+  padding: 0 !important;
+
+  &-bottom {
+    margin-bottom: 0 !important;
+  }
+
+  &-bottom-padding {
+    padding-bottom: 0 !important;
+  }
+}
+
+section,
+.section {
+  margin-bottom: $lead-double;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+
+  &:before,
+  &:after {
+    display: block;
+  }
+}

@@ -1,0 +1,10 @@
+{% set i = 0 %}
+{% for testimonial in testimonials %}
+<blockquote data-id="{{ i }}" class="{% if loop.first %}visible{% endif %}">
+  <div class="inner">
+    <p>{{ testimonial.text }}</p>
+    <footer><cite class="author">{{ testimonial.author }}</cite></footer>
+  </div>
+</blockquote>
+{% set i = i+1 %}
+{% endfor %}

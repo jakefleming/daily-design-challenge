@@ -1,0 +1,252 @@
+.book-site {
+  .header {
+    width: 100% !important;
+
+    &.fixed {
+      position: fixed;
+      z-index: 200;
+      top: -36px;
+    }
+  }
+
+  .nav-brand-family:before {
+    opacity: 1;
+  }
+
+  .masthead {
+    padding-top: $lead-single * 6;
+  }
+
+  nav {
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  .banner {
+    background: $color-background;
+    margin-bottom: $lead-single * 1.5;
+    position: relative;
+
+    .ex-number {
+      margin-top: ($lead-single * 1.5);
+    }
+
+    h1 {
+      margin: 0 0 $lead-double;
+    }
+  }
+
+  .banner-btn {
+    padding: 30px;
+    width: 80px;
+    height: 80px;
+    color: $color-text-light;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    top: -50%;
+
+    &_wrap {
+      position: absolute;
+      top: 50%;
+      height: 80px;
+
+      &--prev {
+        left: 0;
+      }
+
+      &--next {
+        right: 0;
+      }
+    }
+
+    &:hover {
+      color: $color-text;
+      background: darken($color-background-light, 7%);
+    }
+
+    &:before {
+      transition: $transition-in;
+    }
+
+    &--next {
+      right: -34px;
+
+      &:before {
+        position: relative;
+        left: - $lead-half;
+      }
+
+      &:hover {
+        &:before {
+          left: - $lead-half + 3px;
+        }
+      }
+    }
+
+    &--prev {
+      left: -34px;
+
+      &:before {
+        position: relative;
+        right: - $lead-half;
+      }
+
+      &:hover {
+        &:before {
+          right: - $lead-half + 3px;
+        }
+      }
+    }
+  }
+
+  .content {
+    text-align: left;
+    margin-bottom: $lead-double - 2px;
+    border-bottom: 2px solid $color-border;
+  }
+
+  .main-container {
+    padding-bottom: $lead-single;
+  }
+
+  .cta {
+    &-container {
+      border: 1px solid $color-border;
+      border-radius: $border-radius;
+      padding: 0;
+      margin-bottom: $lead-single;
+    }
+
+    &-panel {
+      padding: $lead-single;
+
+      &--left {
+        background: $color-background-light;
+      }
+
+      ul {
+        text-align: left;
+
+        li {
+          padding-left: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  section,
+  .section {
+    margin-bottom: $lead-double;
+  }
+
+  .content ul,
+  .content ol {
+    padding-left: 0;
+
+    li {
+      margin-left: $lead-single;
+      margin-bottom: $lead-half;
+      padding-left: $lead-half;
+
+      ul,
+      ol {
+        margin-top: $lead-half;
+      }
+    }
+  }
+
+  ol {
+    list-style-type: none;
+
+    li {
+      counter-increment: step-counter;
+      position: relative;
+
+      &:before {
+        content: counter(step-counter);
+        margin: 0 10px 0 -40px;
+        font-size: $type-scale-0;
+        color: $color-text-light;
+        padding: 0;
+        border: 1px solid $color-border;
+        border-radius: 50%;
+        height: 28px;
+        width: 28px;
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        top: -1px;
+      }
+    }
+  }
+
+  p,
+  blockquote,
+  ul,
+  ol,
+  dl {
+    margin: 0 0 $lead-single;
+  }
+
+  dl {
+    border-width: 1px 1px 0;
+    border-style: solid;
+    border-color: $color-border;
+    padding-top: $lead-single - 1px;
+
+    dt {
+      font-weight: bold;
+      margin-bottom: $lead-half;
+      padding: 0 $lead-single;
+    }
+
+    dd {
+      margin: 0 0 $lead-single;
+      padding: 0 $lead-single ($lead-single - 1px);
+      border-bottom: 1px solid $color-border;
+    }
+  }
+
+  .site-links {
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .bottom-nav {
+    background: $color-background-light;
+    padding: 0;
+
+    [class*="col-"] {
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      padding: $lead-double $lead-single;
+      display: block;
+
+      [class*="icon-"] {
+        position: relative;
+        top: 0.2em;
+      }
+
+      &:hover {
+        background: darken($color-background-light, 7%);
+      }
+    }
+  }
+
+  .footer ul { margin-bottom: 0; }
+}

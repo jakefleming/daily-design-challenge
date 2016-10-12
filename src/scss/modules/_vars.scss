@@ -1,0 +1,130 @@
+// 42em > 42
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+////// Color Palette //////
+
+$primary:                 #13C183;
+$secondary:               #546389;
+
+$gradientStart:           #2D628A;
+$gradient1:               #45638A;
+$gradient2:               #5C648A;
+$gradientEnd:             #74658A;
+
+$color-text-nav:          lighten(#B5B5D0, 20%);
+$color-text-nav-trans:    rgba($color-text-nav, 0.5);
+$color-text-nav-hover:    lighten($color-text-nav, 20%);
+
+$color-dark:              #0A2E4A;
+$color-light:             #F5F5F5;
+
+$color-background:        $color-light;
+$color-background-light:  #fff;
+$color-background-dark:   darken($color-background, 6%);
+
+$color-overlay:           rgba($color-dark, 0.35);
+$color-shadow:            rgba(#000, 0.15);
+
+$color-border:            rgba($color-dark, .2);
+$color-border-dark:       rgba($color-dark, .4);
+
+$color-text:              $color-dark;
+$color-text-light:        lighten($secondary, 5%);
+$color-text-lighter:      lighten($secondary, 20%);
+
+$color-link:              $primary;
+$color-link-hover:        darken($color-link, 5%);
+
+$grid-1:                  rgba(255, 255, 255, 0);
+$grid-2:                  rgba(0, 0, 0, 0.1);
+
+$color-selection:         #fff;
+$color-selection-bg:      $secondary;
+
+$python:            #13C183;
+$python-dark:       darken($python, 10%);
+$more-python:       #1D915B;
+$more-python-dark:  darken($more-python, 10%);
+$ruby:              #F04F5F;
+$ruby-dark:         darken($ruby, 10%);
+$c:                 #6097EF;
+$c-dark:            darken($c, 10%);
+$javascript:        #DE499D;
+$javascript-dark:   darken($javascript, 10%);
+$sql:               #f5b901;
+$sql-dark:          darken($sql, 10%);
+$unix:              #313B45;
+$unix-dark:         darken($unix, 10%);
+$regex:           #26D1CB;
+$regex-dark:      darken($regex, 10%);
+$design:            #F29B2A;
+$design-dark:       #F08F28;
+
+$brand: (
+  python:            #13C183,
+  more-python:       #1D915B,
+  ruby:              #F04F5F,
+  c:                 #6097EF,
+  javascript:        #DE499D,
+  sql:               #EDAA00,
+  unix:              #324a4a,
+  regex:           #26D1CB,
+  design:            #F29B2A
+);
+
+$brand-dark: (
+  python:            darken(#13C183, 10%),
+  more-python:       darken(#1D915B, 15%),
+  ruby:              darken(#F04F5F, 20%),
+  c:                 darken(#6097EF, 18%),
+  javascript:        darken(#DE499D, 18%),
+  sql:               darken(#EDAA00, 8%),
+  unix:              darken(#324a4a, 25%),
+  regex:           darken(#26D1CB, 10%),
+  design:            #F08F28
+);
+
+////// Grid //////
+
+
+
+////// Type Scale //////
+
+$scale: 1.5;
+$font-size: 18px;
+$base: strip-unit($font-size);
+$line-height: $font-size * $scale;
+
+// Strips of lead
+$lead-half:        $line-height / 2;
+.lead-half       { margin-bottom: $line-height / 2 !important; }
+
+$lead-single:      $line-height;
+.lead-single     { margin-bottom: $line-height !important; }
+
+$lead-double:      $line-height * 2;
+.lead-double     { margin-bottom: $line-height * 2 !important; }
+
+$lead-triple:      $line-height * 3;
+.lead-triple     { margin-bottom: $line-height * 3 !important; }
+
+$lead-quadruple:   $line-height * 4;
+.lead-quadruple  { margin-bottom: $line-height * 4 !important; }
+
+$lead-quintuple:   $line-height * 5;
+.lead-quintuple  { margin-bottom: $line-height * 5 !important; }
+
+
+
+////// Site //////
+
+$transition-out: all 0.15s ease-out;
+$transition-in:  all 0.1s ease-in;
+
+$border-radius:        3px;
+
+$card-radius:          5px;
+$card-depth:           3px * -1;
+$card-shadow-darken:   5%;

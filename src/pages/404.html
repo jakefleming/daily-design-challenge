@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block documentHead %}
+  {% import 'macros/head-macro.html' as head %}
+  {{ head.title( 'Not Found' ) }}
+{% endblock %}
+
+<!-- Main content area -->
+{% block content %}
+{% set course = courses.design %}
+<div class="masthead {{ course.name }}-background" style="background-image: url('/images/pattern-{{ course.name }}.svg')">
+  <img src="/images/{{ course.logoFile }}" alt="{{ course.title }}" class="logo">
+</div>
+
+<div class="content {{ course.name }}">
+
+  <div class="row center-xs">
+    <div class="col-xs-11 col-sm-8 col-md-6">
+      <h1>404</h1>
+      <p class="text-center">Sorry, you appear to have found a broken link.</p>
+    </div>
+  </div>
+
+</div>
+{% endblock %}

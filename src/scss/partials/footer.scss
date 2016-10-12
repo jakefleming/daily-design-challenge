@@ -1,0 +1,55 @@
+$footer-height-sm: 150px;
+$footer-height-xs: 275px;
+
+body {
+  margin-bottom: $footer-height-xs;
+}
+
+.footer {
+  flex-grow: 1;
+  background: $color-background-dark;
+  height: $footer-height-xs;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  a {
+    color: lighten($color-text, 15%);
+    text-decoration: none;
+
+    &:hover {
+      color: $color-text;
+    }
+  }
+
+  .row {
+    padding: 0;
+  }
+
+  .nav {
+    margin-top: $lead-single;
+    display: flex;
+
+    li {
+      flex-grow: 1;
+
+      a {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+
+  /* Todo: Need to refactor the footer stuff, after separating repos */
+  &--succinct {
+    display: flex;
+    flex-direction: column;
+    @extend .around-xs;
+    @extend .middle-xs;
+
+    .classy-container {
+      margin: $lead-single;
+    }
+  }
+}

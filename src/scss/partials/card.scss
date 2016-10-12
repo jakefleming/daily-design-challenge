@@ -1,0 +1,106 @@
+.card {
+  padding: 0;
+  border-radius: $card-radius;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+  margin-bottom: $lead-double;
+  display: flex;
+  flex-direction: column;
+
+  &.python {
+    .card-body { box-shadow: inset 0px $card-depth 0px  darken($python, $card-shadow-darken); }
+  }
+
+  &.more-python {
+    .card-body { box-shadow: inset 0px $card-depth 0px  darken($more-python, $card-shadow-darken); }
+  }
+
+  &.ruby {
+    .card-body { box-shadow: inset 0px $card-depth 0px  darken($ruby, $card-shadow-darken); }
+  }
+
+  &.c {
+    .card-body { box-shadow: inset 0px $card-depth 0px  darken($c, $card-shadow-darken); }
+  }
+
+  &.javascript {
+    .card-body { box-shadow: inset 0px $card-depth 0px  darken($javascript, $card-shadow-darken); }
+  }
+
+  &.sql {
+    .card-body { box-shadow: inset 0px $card-depth 0px  darken($sql, $card-shadow-darken); }
+  }
+
+  &.unix {
+    .card-body { box-shadow: inset 0px $card-depth 0px  darken($unix, $card-shadow-darken); }
+  }
+
+  &.regex {
+    .card-body { box-shadow: inset 0px $card-depth 0px  darken($regex, $card-shadow-darken); }
+  }
+
+  &.design {
+    .card-body { box-shadow: inset 0px $card-depth 0px  darken($design, $card-shadow-darken); }
+  }
+
+  &-wrap {
+    padding: 0 1rem;
+    display: flex;
+    flex-basis: 100%;
+    max-width: 100%;
+    flex-grow: 1;
+  }
+
+  &-header {
+    text-align: center;
+    padding: $lead-single;
+    border-radius: $card-radius $card-radius 0 0;
+    display: block;
+    background-size: 80%;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &-body {
+    background: #fff;
+    padding: ($lead-single * 1.5) $lead-single;
+    border-radius: 0 0 $card-radius $card-radius;
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  &-text {
+    margin-bottom: $lead-single;
+    text-align: left;
+  }
+
+  &-cta {
+    margin-bottom: $lead-half;
+    position: relative;
+
+    a {
+      white-space: normal;
+      width: 100%;
+    }
+
+    &-subtext {
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: -($lead-single);
+
+      a {
+        color: $color-text-lighter !important;
+
+        &:hover {
+          color: $color-text-light !important;
+        }
+      }
+    }
+  }
+}
