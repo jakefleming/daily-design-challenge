@@ -99,6 +99,10 @@ nav {
 .text-hide    { text-indent: -999999px; position: absolute; }
 .text-lighter { opacity: 0.85; }
 
+.float-left   { float: left; }
+.float-none   { float: none; }
+.float-right  { float: right; }
+
 .fixed {
   position: fixed !important;
 }
