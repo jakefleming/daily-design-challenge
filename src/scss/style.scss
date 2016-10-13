@@ -1,38 +1,48 @@
 //----------------------------------*\
-// CONFIG MODULES
+// SETTINGS
 //----------------------------------*/
-
-// Config modules
-@import 'modules/_vars.scss';
-@import 'modules/_clearfix.scss';
-@import 'modules/_normalize.scss';
-
-//----------------------------------*\
-// SCSS MIXINS
-//----------------------------------*/
+@import 'settings/_normalize.scss';
+@import 'settings/_vars.scss';
 
 
 //----------------------------------*\
 // VENDOR
 //----------------------------------*/
-
 @import 'vendor/bootstrap.scss';
 @import 'vendor/flexboxgrid.scss';
 
 //----------------------------------*\
-// OBJECTS & MODULES
+// BASE
 //----------------------------------*/
+@import 'base/_defaults.scss';
+@import 'base/_typography.scss';
 
-@import 'modules/_defaults.scss';
-@import 'modules/_typography.scss';
-@import 'modules/_icons.scss';
+//----------------------------------*\
+// MIXINS & EXTENDS
+//----------------------------------*/
+@import 'modules/_mixins.scss';
+@import 'modules/_extends.scss';
+
+//----------------------------------*\
+// OBJECTS
+//----------------------------------*/
+@import 'objects/_icons.scss';
+@import 'objects/_buttons.scss';
+@import 'objects/_cards.scss';
+@import 'objects/footer.scss';
+@import 'objects/_main.scss';
+@import 'objects/_spinner.scss';
+
+
+//----------------------------------*\
+// MODULES
+//----------------------------------*/
 @import 'modules/_misc.scss';
-@import 'modules/_buttons.scss';
 @import 'modules/_syntax-highlighter.scss';
-@import 'modules/_cards.scss';
-
-@import 'partials/footer.scss';
-
-@import 'partials/_main.scss';
-
 @import 'modules/_breakpoints.scss';
+
+
+//----------------------------------*\
+// TOOLS
+//----------------------------------*/
+@import 'tools/_utilities.scss';

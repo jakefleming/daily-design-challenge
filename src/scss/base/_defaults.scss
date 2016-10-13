@@ -133,3 +133,19 @@ section,
     display: block;
   }
 }
+
+::selection{
+  background: $color-selection-bg;
+  color: $color-selection;
+  text-shadow: none;
+}
+::-moz-selection{
+  background: $color-selection-bg;
+  color: $color-selection;
+  text-shadow: none;
+}
+::-webkit-selection{
+  background: $color-selection-bg;
+  color: $color-selection;
+  text-shadow: none;
+}
