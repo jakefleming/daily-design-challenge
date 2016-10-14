@@ -1,0 +1,129 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f04f5f;
+      }
+
+      .cls-3 {
+        fill: #ff6461;
+      }
+
+      .cls-4 {
+        fill: #fb5f61;
+      }
+
+      .cls-5 {
+        fill: #f85a60;
+      }
+
+      .cls-6 {
+        fill: #f45460;
+      }
+
+      .cls-7 {
+        fill: url(#New_Pattern);
+      }
+    </style>
+    <pattern id="New_Pattern" data-name="New Pattern" y="-460" width="100%" height="100%" patternUnits="userSpaceOnUse" viewBox="0 0 200 200">
+      <rect class="cls-1" width="100%" height="100%"/>
+      <g>
+        <polygon class="cls-2" points="200 200 190 262 240 190 200 200"/>
+        <polygon class="cls-3" points="240 190 190 262 230 240 240 190"/>
+      </g>
+      <g>
+        <polygon class="cls-4" points="160 190 170 254 200 200 160 190"/>
+        <polygon class="cls-3" points="160 190 125 209 170 254 160 190"/>
+        <polygon class="cls-2" points="0 200 -10 262 40 190 0 200"/>
+        <polygon class="cls-5" points="90 210 40 190 70 250 90 210"/>
+        <polygon class="cls-3" points="40 190 -10 262 30 240 40 190"/>
+        <polygon class="cls-4" points="70 250 40 190 30 240 70 250"/>
+      </g>
+      <g>
+        <polygon class="cls-2" points="200 0 190 62 240 -10 200 0"/>
+        <polygon class="cls-6" points="190 62 206 94 250 89 190 62"/>
+        <polygon class="cls-4" points="206 94 181 132 250 89 206 94"/>
+        <polygon class="cls-2" points="181 132 207 159 240 160 181 132"/>
+        <polygon class="cls-3" points="240 -10 190 62 230 40 240 -10"/>
+        <polygon class="cls-5" points="230 40 190 62 250 89 230 40"/>
+        <polygon class="cls-3" points="250 89 181 132 230 138 250 89"/>
+        <polygon class="cls-6" points="230 138 181 132 240 160 230 138"/>
+      </g>
+      <g>
+        <polygon class="cls-4" points="160 -10 170 54 200 0 160 -10"/>
+        <polygon class="cls-4" points="170 54 160 80 206 94 170 54"/>
+        <polygon class="cls-6" points="160 80 156 124 206 94 160 80"/>
+        <polygon class="cls-4" points="156 124 169 169 207 159 156 124"/>
+        <polygon class="cls-2" points="169 169 160 190 207 159 169 169"/>
+        <polygon class="cls-2" points="200 0 170 54 190 62 200 0"/>
+        <polygon class="cls-5" points="190 62 170 54 206 94 190 62"/>
+        <polygon class="cls-2" points="206 94 156 124 181 132 206 94"/>
+        <polygon class="cls-6" points="181 132 156 124 207 159 181 132"/>
+        <polygon class="cls-6" points="207 159 160 190 200 200 207 159"/>
+        <polygon class="cls-4" points="90 10 70 50 125 9 90 10"/>
+        <polygon class="cls-3" points="160 -10 125 9 170 54 160 -10"/>
+        <polygon class="cls-4" points="70 50 80 80 130 90 70 50"/>
+        <polygon class="cls-3" points="160 80 170 54 130 90 160 80"/>
+        <polygon class="cls-2" points="80 80 72 120 130 90 80 80"/>
+        <polygon class="cls-5" points="156 124 160 80 130 90 156 124"/>
+        <polygon class="cls-4" points="72 120 70 170 120 178 72 120"/>
+        <polygon class="cls-3" points="120 178 169 169 156 124 120 178"/>
+        <polygon class="cls-2" points="70 170 90 210 120 178 70 170"/>
+        <polygon class="cls-6" points="160 190 169 169 120 178 160 190"/>
+        <polygon class="cls-3" points="125 9 70 50 130 40 125 9"/>
+        <polygon class="cls-4" points="170 54 125 9 130 40 170 54"/>
+        <polygon class="cls-6" points="130 40 70 50 130 90 130 40"/>
+        <polygon class="cls-2" points="130 90 170 54 130 40 130 90"/>
+        <polygon class="cls-3" points="130 90 72 120 112 116 130 90"/>
+        <polygon class="cls-4" points="112 116 156 124 130 90 112 116"/>
+        <polygon class="cls-6" points="112 116 72 120 120 178 112 116"/>
+        <polygon class="cls-2" points="120 178 156 124 112 116 120 178"/>
+        <polygon class="cls-3" points="90 210 125 209 120 178 90 210"/>
+        <polygon class="cls-4" points="125 209 160 190 120 178 125 209"/>
+        <polygon class="cls-2" points="0 0 -10 62 40 -10 0 0"/>
+        <polygon class="cls-5" points="90 10 40 -10 70 50 90 10"/>
+        <polygon class="cls-6" points="-10 62 6 94 50 89 -10 62"/>
+        <polygon class="cls-4" points="6 94 -19 132 50 89 6 94"/>
+        <polygon class="cls-2" points="-19 132 7 159 40 160 -19 132"/>
+        <polygon class="cls-3" points="80 80 70 50 50 89 80 80"/>
+        <polygon class="cls-6" points="72 120 80 80 50 89 72 120"/>
+        <polygon class="cls-3" points="70 170 72 120 40 160 70 170"/>
+        <polygon class="cls-3" points="7 159 0 200 40 160 7 159"/>
+        <polygon class="cls-6" points="40 160 90 210 70 170 40 160"/>
+        <polygon class="cls-3" points="40 -10 -10 62 30 40 40 -10"/>
+        <polygon class="cls-4" points="70 50 40 -10 30 40 70 50"/>
+        <polygon class="cls-5" points="30 40 -10 62 50 89 30 40"/>
+        <polygon class="cls-3" points="50 89 -19 132 30 138 50 89"/>
+        <polygon class="cls-6" points="30 138 -19 132 40 160 30 138"/>
+        <polygon class="cls-2" points="50 89 70 50 30 40 50 89"/>
+        <polygon class="cls-5" points="30 138 72 120 50 89 30 138"/>
+        <polygon class="cls-2" points="40 160 72 120 30 138 40 160"/>
+        <polygon class="cls-6" points="0 200 40 190 40 160 0 200"/>
+        <polygon class="cls-5" points="40 190 90 210 40 160 40 190"/>
+      </g>
+      <g>
+        <polygon class="cls-4" points="-30 54 -40 80 6 94 -30 54"/>
+        <polygon class="cls-6" points="-40 80 -44 124 6 94 -40 80"/>
+        <polygon class="cls-4" points="-44 124 -31 169 7 159 -44 124"/>
+        <polygon class="cls-2" points="-31 169 -40 190 7 159 -31 169"/>
+        <polygon class="cls-5" points="-10 62 -30 54 6 94 -10 62"/>
+        <polygon class="cls-2" points="6 94 -44 124 -19 132 6 94"/>
+        <polygon class="cls-6" points="-19 132 -44 124 7 159 -19 132"/>
+        <polygon class="cls-6" points="7 159 -40 190 0 200 7 159"/>
+      </g>
+      <g>
+        <polygon class="cls-2" points="70 -30 90 10 120 -22 70 -30"/>
+        <polygon class="cls-3" points="90 10 125 9 120 -22 90 10"/>
+        <polygon class="cls-4" points="125 9 160 -10 120 -22 125 9"/>
+        <polygon class="cls-6" points="40 -40 90 10 70 -30 40 -40"/>
+        <polygon class="cls-5" points="40 -10 90 10 40 -40 40 -10"/>
+      </g>
+    </pattern>
+  </defs>
+  <title>pattern-ruby</title>
+  <rect class="cls-7" width="100%" height="100%"/>
+</svg>

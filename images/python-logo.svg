@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256px" height="102px" viewBox="0 0 256 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>python-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="high-fi" transform="translate(-441.000000, -1241.000000)">
+            <g id="Group-17" transform="translate(397.000000, 1206.000000)">
+                <g id="python-logo" transform="translate(46.134111, 30.000000)">
+                    <text id="PYTHON" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="26" font-weight="bold" line-spacing="24" letter-spacing="2" fill="#FFFFFF">
+                        <tspan x="73.7142857" y="69">PYTHON</tspan>
+                    </text>
+                    <text id="LEARN-Copy-18" font-family="SourceSansPro-Black, Source Sans Pro" font-size="18" font-weight="700" letter-spacing="1" fill="#FFFFFF">
+                        <tspan x="97.2827988" y="18">LEARN</tspan>
+                    </text>
+                    <text id="HARD-WAY-Copy-15" font-family="SourceSansPro-Black, Source Sans Pro" font-size="18" font-weight="700" letter-spacing="1" fill="#FFFFFF">
+                        <tspan x="93.271137" y="106">HARD WAY</tspan>
+                    </text>
+                    <text id="THE-Copy-15" font-family="SourceSansPro-BlackIt, Source Sans Pro" font-size="11" font-style="italic" font-weight="700" text-decoration="underline" fill="#FFFFFF">
+                        <tspan x="69.1165598" y="104">THE</tspan>
+                    </text>
+                    <g id="Group-Copy-4" transform="translate(165.481050, 7.000000)" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round">
+                        <path d="M0,10 L74.2450931,10 C74.8011781,10 75.251974,10.4411505 75.251974,10.9918089 L75.251974,87.451154 C75.251974,87.9989149 74.8005064,88.4429326 74.2466229,88.4428955 L31.090379,88.4400024" id="Path-4855-Copy-7"></path>
+                        <path d="M0,0 L82.249369,0 C84.459259,0 86.2507289,1.78463051 86.2507289,3.9937032 L86.2507289,94.0062968 C86.2507289,96.2119582 84.4499364,98 82.2462615,98 L31.186101,98" id="Path-4855-Copy-8"></path>
+                    </g>
+                    <g id="Group-Copy-5" transform="translate(43.125364, 56.000000) scale(-1, 1) translate(-43.125364, -56.000000) translate(0.000000, 7.000000)" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round">
+                        <path d="M0,10 L74.2450931,10 C74.8011781,10 75.251974,10.4411505 75.251974,10.9918089 L75.251974,87.451154 C75.251974,87.9989149 74.8005064,88.4429326 74.2466229,88.4428955 L31.090379,88.4400024" id="Path-4855-Copy-7"></path>
+                        <path d="M0,0 L82.249369,0 C84.459259,0 86.2507289,1.78463051 86.2507289,3.9937032 L86.2507289,94.0062968 C86.2507289,96.2119582 84.4499364,98 82.2462615,98 L31.186101,98" id="Path-4855-Copy-8"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
