@@ -1,0 +1,90 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #313b44;
+      }
+
+      .cls-3 {
+        stroke: #324a4a;
+        stroke-linecap: square;
+        stroke-linejoin: round;
+        stroke-width: 10px;
+      }
+
+      .cls-4 {
+        fill: url(#New_Pattern_9);
+      }
+    </style>
+    <pattern id="New_Pattern_9" data-name="New Pattern 9" x="-230" y="-1610" width="100%" height="100%" patternUnits="userSpaceOnUse" viewBox="0 0 200 200">
+      <rect class="cls-1" width="100%" height="100%"/>
+      <g>
+        <rect class="cls-2" width="100%" height="100%"/>
+        <g>
+          <line class="cls-3" x1="90" y1="60" x2="90" y2="80"/>
+          <polyline class="cls-3" points="60 55 75 70 60 85"/>
+          <line class="cls-3" x1="110" y1="60" x2="110" y2="80"/>
+          <polyline class="cls-3" points="140 55 125 70 140 85"/>
+          <line class="cls-3" x1="85" y1="100" x2="115" y2="100"/>
+          <polyline class="cls-3" points="85 130 100 115 115 130"/>
+          <line class="cls-3" x1="85" y1="40" x2="115" y2="40"/>
+          <polyline class="cls-3" points="85 10 100 25 115 10"/>
+        </g>
+        <g>
+          <line class="cls-3" x1="140" y1="160" x2="140" y2="180"/>
+          <polyline class="cls-3" points="110 155 125 170 110 185"/>
+          <line class="cls-3" x1="160" y1="160" x2="160" y2="180"/>
+          <polyline class="cls-3" points="190 155 175 170 190 185"/>
+          <line class="cls-3" x1="135" y1="200" x2="165" y2="200"/>
+          <polyline class="cls-3" points="135 230 150 215 165 230"/>
+          <line class="cls-3" x1="135" y1="140" x2="165" y2="140"/>
+          <polyline class="cls-3" points="135 110 150 125 165 110"/>
+        </g>
+        <g>
+          <line class="cls-3" x1="40" y1="160" x2="40" y2="180"/>
+          <polyline class="cls-3" points="10 155 25 170 10 185"/>
+          <line class="cls-3" x1="60" y1="160" x2="60" y2="180"/>
+          <polyline class="cls-3" points="90 155 75 170 90 185"/>
+          <line class="cls-3" x1="35" y1="200" x2="65" y2="200"/>
+          <polyline class="cls-3" points="35 230 50 215 65 230"/>
+          <line class="cls-3" x1="35" y1="140" x2="65" y2="140"/>
+          <polyline class="cls-3" points="35 110 50 125 65 110"/>
+        </g>
+        <g>
+          <line class="cls-3" x1="190" y1="60" x2="190" y2="80"/>
+          <polyline class="cls-3" points="160 55 175 70 160 85"/>
+          <line class="cls-3" x1="210" y1="60" x2="210" y2="80"/>
+          <polyline class="cls-3" points="240 55 225 70 240 85"/>
+          <line class="cls-3" x1="185" y1="100" x2="215" y2="100"/>
+          <polyline class="cls-3" points="185 130 200 115 215 130"/>
+          <line class="cls-3" x1="185" y1="40" x2="215" y2="40"/>
+          <polyline class="cls-3" points="185 10 200 25 215 10"/>
+        </g>
+      </g>
+      <g>
+        <line class="cls-3" x1="10" y1="60" x2="10" y2="80"/>
+        <polyline class="cls-3" points="40 55 25 70 40 85"/>
+        <line class="cls-3" x1="-15" y1="100" x2="15" y2="100"/>
+        <polyline class="cls-3" points="-15 130 0 115 15 130"/>
+        <line class="cls-3" x1="-15" y1="40" x2="15" y2="40"/>
+        <polyline class="cls-3" points="-15 10 0 25 15 10"/>
+      </g>
+      <g>
+        <g>
+          <line class="cls-3" x1="135" x2="165"/>
+          <polyline class="cls-3" points="135 30 150 15 165 30"/>
+        </g>
+        <g>
+          <line class="cls-3" x1="35" x2="65"/>
+          <polyline class="cls-3" points="35 30 50 15 65 30"/>
+        </g>
+      </g>
+    </pattern>
+  </defs>
+  <title>pattern-command-line</title>
+  <rect class="cls-4" width="100%" height="100%"/>
+</svg>

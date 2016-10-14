@@ -1,0 +1,250 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #0a2d4a;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        stroke: #0b344f;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+      }
+
+      .cls-5 {
+        fill: url(#New_Pattern_12);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="100%" height="100%"/>
+    </clipPath>
+    <pattern id="New_Pattern_12" data-name="New Pattern 12" width="100%" height="100%" patternTransform="translate(-30 -1610)" patternUnits="userSpaceOnUse" viewBox="0 0 200 200">
+      <rect class="cls-1" width="100%" height="100%"/>
+      <rect class="cls-2" width="100%" height="100%"/>
+      <g class="cls-3">
+        <g>
+          <g>
+            <circle class="cls-4" r="33.31"/>
+            <circle class="cls-4" r="21.08"/>
+            <circle class="cls-4" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="66.67" r="33.31"/>
+            <circle class="cls-4" cx="66.67" r="21.08"/>
+            <circle class="cls-4" cx="66.67" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="133.33" r="33.31"/>
+            <circle class="cls-4" cx="133.33" r="21.08"/>
+            <circle class="cls-4" cx="133.33" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="200" r="33.31"/>
+            <circle class="cls-4" cx="200" r="21.08"/>
+            <circle class="cls-4" cx="200" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="33.33" cy="20" r="33.31"/>
+            <circle class="cls-4" cx="33.33" cy="20" r="21.08"/>
+            <circle class="cls-4" cx="33.33" cy="20" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="100" cy="20" r="33.31"/>
+            <circle class="cls-4" cx="100" cy="20" r="21.08"/>
+            <circle class="cls-4" cx="100" cy="20" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="166.66" cy="20" r="33.31"/>
+            <circle class="cls-4" cx="166.66" cy="20" r="21.08"/>
+            <circle class="cls-4" cx="166.66" cy="20" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cy="40" r="33.31"/>
+            <circle class="cls-4" cy="40" r="21.08"/>
+            <circle class="cls-4" cy="40" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="66.67" cy="40" r="33.31"/>
+            <circle class="cls-4" cx="66.67" cy="40" r="21.08"/>
+            <circle class="cls-4" cx="66.67" cy="40" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="133.33" cy="40" r="33.31"/>
+            <circle class="cls-4" cx="133.33" cy="40" r="21.08"/>
+            <circle class="cls-4" cx="133.33" cy="40" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="200" cy="40" r="33.31"/>
+            <circle class="cls-4" cx="200" cy="40" r="21.08"/>
+            <circle class="cls-4" cx="200" cy="40" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="33.33" cy="60" r="33.31"/>
+            <circle class="cls-4" cx="33.33" cy="60" r="21.08"/>
+            <circle class="cls-4" cx="33.33" cy="60" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="100" cy="60" r="33.31"/>
+            <circle class="cls-4" cx="100" cy="60" r="21.08"/>
+            <circle class="cls-4" cx="100" cy="60" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="166.66" cy="60" r="33.31"/>
+            <circle class="cls-4" cx="166.66" cy="60" r="21.08"/>
+            <circle class="cls-4" cx="166.66" cy="60" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cy="80" r="33.31"/>
+            <circle class="cls-4" cy="80" r="21.08"/>
+            <circle class="cls-4" cy="80" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="66.67" cy="80" r="33.31"/>
+            <circle class="cls-4" cx="66.67" cy="80" r="21.08"/>
+            <circle class="cls-4" cx="66.67" cy="80" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="133.33" cy="80" r="33.31"/>
+            <circle class="cls-4" cx="133.33" cy="80" r="21.08"/>
+            <circle class="cls-4" cx="133.33" cy="80" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="200" cy="80" r="33.31"/>
+            <circle class="cls-4" cx="200" cy="80" r="21.08"/>
+            <circle class="cls-4" cx="200" cy="80" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="33.33" cy="100" r="33.31"/>
+            <circle class="cls-4" cx="33.33" cy="100" r="21.08"/>
+            <circle class="cls-4" cx="33.33" cy="100" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="100" cy="100" r="33.31"/>
+            <circle class="cls-4" cx="100" cy="100" r="21.08"/>
+            <circle class="cls-4" cx="100" cy="100" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="166.66" cy="100" r="33.31"/>
+            <circle class="cls-4" cx="166.66" cy="100" r="21.08"/>
+            <circle class="cls-4" cx="166.66" cy="100" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cy="120" r="33.31"/>
+            <circle class="cls-4" cy="120" r="21.08"/>
+            <circle class="cls-4" cy="120" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="66.67" cy="120" r="33.31"/>
+            <circle class="cls-4" cx="66.67" cy="120" r="21.08"/>
+            <circle class="cls-4" cx="66.67" cy="120" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="133.33" cy="120" r="33.31"/>
+            <circle class="cls-4" cx="133.33" cy="120" r="21.08"/>
+            <circle class="cls-4" cx="133.33" cy="120" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="200" cy="120" r="33.31"/>
+            <circle class="cls-4" cx="200" cy="120" r="21.08"/>
+            <circle class="cls-4" cx="200" cy="120" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="33.33" cy="140" r="33.31"/>
+            <circle class="cls-4" cx="33.33" cy="140" r="21.08"/>
+            <circle class="cls-4" cx="33.33" cy="140" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="100" cy="140" r="33.31"/>
+            <circle class="cls-4" cx="100" cy="140" r="21.08"/>
+            <circle class="cls-4" cx="100" cy="140" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="166.66" cy="140" r="33.31"/>
+            <circle class="cls-4" cx="166.66" cy="140" r="21.08"/>
+            <circle class="cls-4" cx="166.66" cy="140" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cy="160" r="33.31"/>
+            <circle class="cls-4" cy="160" r="21.08"/>
+            <circle class="cls-4" cy="160" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="66.67" cy="160" r="33.31"/>
+            <circle class="cls-4" cx="66.67" cy="160" r="21.08"/>
+            <circle class="cls-4" cx="66.67" cy="160" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="133.33" cy="160" r="33.31"/>
+            <circle class="cls-4" cx="133.33" cy="160" r="21.08"/>
+            <circle class="cls-4" cx="133.33" cy="160" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="200" cy="160" r="33.31"/>
+            <circle class="cls-4" cx="200" cy="160" r="21.08"/>
+            <circle class="cls-4" cx="200" cy="160" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="33.33" cy="180" r="33.31"/>
+            <circle class="cls-4" cx="33.33" cy="180" r="21.08"/>
+            <circle class="cls-4" cx="33.33" cy="180" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="100" cy="180" r="33.31"/>
+            <circle class="cls-4" cx="100" cy="180" r="21.08"/>
+            <circle class="cls-4" cx="100" cy="180" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="166.66" cy="180" r="33.31"/>
+            <circle class="cls-4" cx="166.66" cy="180" r="21.08"/>
+            <circle class="cls-4" cx="166.66" cy="180" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cy="200" r="33.31"/>
+            <circle class="cls-4" cy="200" r="21.08"/>
+            <circle class="cls-4" cy="200" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="66.67" cy="200" r="33.31"/>
+            <circle class="cls-4" cx="66.67" cy="200" r="21.08"/>
+            <circle class="cls-4" cx="66.67" cy="200" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="133.33" cy="200" r="33.31"/>
+            <circle class="cls-4" cx="133.33" cy="200" r="21.08"/>
+            <circle class="cls-4" cx="133.33" cy="200" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="200" cy="200" r="33.31"/>
+            <circle class="cls-4" cx="200" cy="200" r="21.08"/>
+            <circle class="cls-4" cx="200" cy="200" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="33.33" cy="220" r="33.31"/>
+            <circle class="cls-4" cx="33.33" cy="220" r="21.08"/>
+            <circle class="cls-4" cx="33.33" cy="220" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="100" cy="220" r="33.31"/>
+            <circle class="cls-4" cx="100" cy="220" r="21.08"/>
+            <circle class="cls-4" cx="100" cy="220" r="8.43"/>
+          </g>
+          <g>
+            <circle class="cls-4" cx="166.66" cy="220" r="33.31"/>
+            <circle class="cls-4" cx="166.66" cy="220" r="21.08"/>
+            <circle class="cls-4" cx="166.66" cy="220" r="8.43"/>
+          </g>
+        </g>
+      </g>
+    </pattern>
+  </defs>
+  <title>pattern-code</title>
+  <rect class="cls-5" width="100%" height="100%"/>
+</svg>
