@@ -1,10 +1,4 @@
-# Learn Code the Hard Way
-
-Starter project for simple websites. Outputs a static HTML site, using gulp. "Artisinal."
-
-* HTML: supports partials, via nunjucks
-
-* CSS: Uses SASS to compile SCSS files
+# Daily design challenge
 
 ## To develop locally
 
@@ -13,3 +7,7 @@ Starter project for simple websites. Outputs a static HTML site, using gulp. "Ar
 2. Clone this repo
 
 3. Run `npm start` from the local repo location
+
+## To publish:
+
+1. git subtree push --prefix dist origin gh-pages
