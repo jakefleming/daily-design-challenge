@@ -39,7 +39,7 @@ var designSubmissions = ( function($) {
           var nameSlug     = fName.toLowerCase()+'_'+lName.toLowerCase();
 
           // The stuff to add to each timestamp
-          console.log('title: '+submissions[i].title);
+          // console.log('title: '+submissions[i].title);
           var timestamp    = new Date(submissions[i].title);
           var displayName  = fName + ' ' + lName;
           var url          = submissions[i].categories[2].value;
@@ -63,7 +63,7 @@ var designSubmissions = ( function($) {
 
         for( var personName in people ) {
           var person = people[personName];
-          document.getElementById('leaderboard').innerHTML += '<div class="card submission"><span class="lb-name">' + person.name + '</span><span class="badge float-right">' + designSubmissions.calculatePoints(person.timestamps) + '</span></div>';
+          document.getElementById('leaderboard').innerHTML += '<div class="card submission"><span class="lb-name">' + person.name + '</span>&nbsp;<a href="'+ person.url  +'" class="lb-link">Last Challenge</a><span class="badge float-right">' + designSubmissions.calculatePoints(person.timestamps) + '</span></div>';
         }
 
         $('.leaderboard-spinner').hide();
