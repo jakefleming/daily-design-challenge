@@ -63,7 +63,7 @@ var designSubmissions = ( function($) {
 
         for( var personName in people ) {
           var person = people[personName];
-          document.getElementById('leaderboard').innerHTML += '<div class="card submission"><span class="lb-name">' + person.name + '</span>&nbsp;<a href="'+ person.url  +'" class="lb-link">Last Challenge</a><span class="badge float-right">' + designSubmissions.calculatePoints(person.timestamps) + '</span></div>';
+          document.getElementById('leaderboard').innerHTML += '<div class="card submission"><span class="lb-name">' + person.name + '</span>&nbsp;<a href="'+ person.url  +'" class="lb-link text-muted no-underline">Last Challenge</a><span class="badge float-right">' + designSubmissions.calculatePoints(person.timestamps) + '</span></div>';
         }
 
         $('.leaderboard-spinner').hide();
