@@ -47,8 +47,7 @@ a {
   }
 
   &:active {
-    position: relative;
-    top: 2px;
+    transform: translateY(2px);
   }
 }
 
@@ -121,7 +120,7 @@ nav {
 
 section,
 .section {
-  margin-bottom: $lead-double;
+  //margin-bottom: $lead-double;
 }
 
 .row {

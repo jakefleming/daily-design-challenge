@@ -8,3 +8,44 @@
     clear: both;
   }
 }
+
+// remove padding
+.lean {
+  &-top {
+    padding-top: 0!important;
+  }
+
+  &-bottom {
+    padding-bottom: 0!important;
+  }
+
+  &-all {
+    padding: 0!important;
+  }
+
+  &-vertical {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+  }
+
+  &-horizontal {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+}
+
+.blunt {
+  &-top {
+    border-radius: 0 0 $border-radius $border-radius;
+  }
+  &-right {
+    border-radius: $border-radius 0 0 $border-radius;
+  }
+  &-bottom {
+    border-radius: $border-radius $border-radius 0 0;
+  }
+  &-left {
+    border-radius: 0 $border-radius $border-radius 0;
+  }
+
+}

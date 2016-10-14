@@ -1,19 +1,19 @@
 ////// Typography //////
 
-$display-stack:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$body-stack:     "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$display-stack:  "skolar-sans-latin-condensed", "Helvetica Neue", Helvetica, Arial, serif;
+$body-stack:     "skolar-sans-latin-extended", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $mono-stack:     "Source Code Pro", Monaco, Courier New, Courier, mono;
-$weight-light:   200;
+$weight-light:   100;
 $weight-normal:  400;
-$weight-bold:    700;
+$weight-bold:    800;
 
-$type-scale-0:   0.75rem;
-$type-scale-1:   1rem;
-$type-scale-2:   1.5rem;
-$type-scale-3:   1.875rem;
-$type-scale-4:   2.25rem;
-$type-scale-5:   3.375rem;
-$type-scale-6:   5.0625rem;
+$type-scale-0:   0.7777777778rem;      //14
+$type-scale-1:   1rem;              //18
+$type-scale-2:   1.3333333333rem;   //24
+$type-scale-3:   1.5555555556rem;   //28
+$type-scale-4:   2rem;              //36
+$type-scale-5:   2.4444444444rem;   //44
+$type-scale-6:   2.7777777778rem;   //50
 
 html {
   font-size: 100%;
@@ -24,7 +24,7 @@ body {
   line-height: $line-height;
   font-family: $body-stack;
   font-weight: $weight-normal;
-  font-style: normal;
+  font-style: normal; 
   text-align: left;
 }
 
@@ -35,7 +35,7 @@ h1,
   font-family: $display-stack;
   font-weight: $weight-bold;
   line-height: $line-height * 1.5;
-  font-size: $type-scale-3;
+  font-size: $type-scale-4;
   font-style: normal;
   margin: 0 0 $lead-single;
   text-align: center;
@@ -45,8 +45,8 @@ h1,
 h2,
 .h2 {
   font-family: $body-stack;
-  font-weight: $weight-bold;
-  font-size: $type-scale-2;
+  font-weight: $weight-normal;
+  font-size: $type-scale-3;
   line-height: $line-height;
   font-style: normal;
   margin: 0 0 $lead-single;
@@ -56,7 +56,7 @@ h3,
 .h3 {
   font-family: $body-stack;
   font-weight: $weight-bold;
-  font-size: $type-scale-1;
+  font-size: $type-scale-2;
   line-height: $line-height;
   font-style: normal;
   margin: 0 0 $lead-half;
@@ -76,12 +76,16 @@ blockquote footer,
 
 h4,
 .h4 {
-  font-weight: $weight-bold;
+  font-weight: $weight-normal;
   margin: 0;
 }
 
 .text-muted {
   color: $color-text-lighter;
+}
+
+.text-fancy {
+  font-style: italic;
 }
 
 .meta-text {
@@ -215,4 +219,16 @@ ol {
       top: -1px;
     }
   }
+}
+
+.page-heading {
+  margin-bottom: 0;
+}
+.page-subheading {
+  color: $color-text-light;
+  font-size: $type-scale-1;
+  font-style: italic;
+  line-height: $line-height*1.5;
+  margin-bottom: $lead-double;
+  text-align: center;
 }

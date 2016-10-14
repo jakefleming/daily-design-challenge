@@ -1,0 +1,15 @@
+.challenge {
+  position: relative;
+  &__prompt {
+    font-size: 3rem;
+    font-weight: $weight-light;
+  }
+  &__author {
+    margin-bottom: $lead-single;
+  }
+  &__refresh-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

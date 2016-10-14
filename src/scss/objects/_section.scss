@@ -1,0 +1,20 @@
+.section {
+  background: white;
+  padding: $lead-triple;
+  &--lighter {
+    background: $color-background-lighter;
+  }
+  &--light {
+    background: $color-background-light;
+  }
+  &--dark {
+    background: $color-background-dark;
+  }
+  &--darker {
+    background: $color-background-darker;
+  }
+  &--on-top {
+    position: relative;
+    z-index: 2;
+  }
+}

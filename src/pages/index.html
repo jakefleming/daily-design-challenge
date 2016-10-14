@@ -1,39 +1,45 @@
 {% extends 'layout.html' %}
 
 {% block documentHead %}
-  {% import 'macros/head-macro.html' as head %}
-  {{ head.title( 'Daily Design Warmup' ) }}
+{% import 'macros/head-macro.html' as head %}
+{{ head.title( 'Daily Design Warmup' ) }}
 {% endblock %}
 
 <!-- Main content area -->
 {% block content %}
 <div class="content">
-  <div class="row around-xs">
-    <div class="col-xs-11 col-sm-8 col-md-6">
-      <h1>Daily Design Challenge</h1>
-      <p class="text-center">
-        Do this. Every day.
-      </p>
-      <hr>
-      <div class="spinner challenge-spinner"></div>
-      <div class="challenge-loaded">
-        <h2 id="challengeText" class="text-center"></h2>
-        <h4 class="text-center">Submitted by <span id="authorText"></span>.</h4>
-        <p class="text-center">
-          <a href="#" class="btn btn-secondary" onClick="location.reload()">Get a new challenge</a>
-          <a href="https://docs.google.com/a/tradecrafted.com/forms/d/e/1FAIpQLSeFzHeVnUvyk808p7Jp6HZ4phbzZtTeMgGMgnVEf_Ozzi-iCg/viewform" class="btn btn-primary">Submit Design</a>
-        </p>
+  <section class="section section--light lean-bottom">
+    <div class="container">
+      <div class="row center-xs">
+        <div class="col-xs-12 col-sm-8 col-md-7">
+          <h1 class="page-heading">Daily Design Challenge</h1>
+          <p class="page-subheading">
+            Do this. Every day.
+          </p>
+          <div class="spinner challenge-spinner"></div>
+          <div class="card card--big challenge challenge-loaded blunt-bottom">
+            <a href="#" class="button challenge__refresh-button" onClick="location.reload()"><span class="icon icon-"></span> Refresh</a>
+            <h2 id="challengeText" class="text-center challenge__prompt"></h2>
+            <h4 class="text-center challenge__author">Submitted by <span id="authorText"></span>.</h4>
+            <div class="text-center">
+              <a href="https://docs.google.com/a/tradecrafted.com/forms/d/e/1FAIpQLSeFzHeVnUvyk808p7Jp6HZ4phbzZtTeMgGMgnVEf_Ozzi-iCg/viewform" class="button button--primary">Submit Your Design</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="row dark">
-    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-      <h1>Leaderboard</h1>
-      <div class="spinner leaderboard-spinner"></div>
-      <div id="leaderboard" class="leaderboard-loaded"></div>
+  </section>
+  <section class="section section--lighter section--on-top">
+    <div class="container">
+      <div class="row center-xs">
+        <div class="col-xs-12 col-sm-8 col-md-7">
+          <h1>Leaderboard</h1>
+          <div class="spinner leaderboard-spinner"></div>
+          <div id="leaderboard" class="leaderboard-loaded"></div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
 
 </div>
 {% endblock %}

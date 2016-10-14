@@ -43,7 +43,7 @@ var submissions = ( function($) {
           var timestamps = names[name];
           var fullName = displayName[name];
 
-          document.getElementById('leaderboard').innerHTML += '<div class="card">' + fullName + '<span class="badge float-right">' + 5000 + '</span></div>';
+          document.getElementById('leaderboard').innerHTML += '<div class="card submission">' + fullName + '<span class="badge float-right">' + 5000 + '</span></div>';
         }
 
         // $('#leaderboard').text( leaderData );

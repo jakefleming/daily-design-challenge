@@ -1,0 +1,54 @@
+.button {
+  //background: $color-dark;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: $border-radius;
+  color: $color-text;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $body-stack;
+  font-weight: $weight-bold;
+  letter-spacing: 1px;
+  line-height: $line-height;
+  font-size: $type-scale-0;
+  padding: $lead-half $lead-single*1.5;
+  text-align: center;
+  text-decoration: none;
+  transition: all .33s;
+  vertical-align: top;
+  text-transform: uppercase;
+  &:hover, &:active, &:visited, &:visited:hover {
+    color: $color-text;
+  }
+  &--primary {
+    background: palette(default,darker);
+    box-shadow: $shadow-1;
+    color: $color-text-lighter;
+    &:hover, &:active, &:visited, &:visited:hover {
+      background: palette(default,darker);
+      color: $color-text-lighter;
+    }
+  }
+  &--secondary {
+    background: palette(default,light);
+    box-shadow: $shadow-1;
+    color: $color-text-light;
+    &:hover, &:active, &:visited, &:visited:hover {
+      background: palette(default,light);
+      color: $color-text;
+    }
+  }
+  &:active {
+    box-shadow: none;
+  }
+
+  .icon {
+    font-size: $type-scale-4;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+    margin-top: -.5em;
+    top: 0.25em;
+    vertical-align: text-bottom;
+  }
+}

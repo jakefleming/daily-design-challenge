@@ -1,0 +1,10 @@
+.card {
+  background: white;
+  box-shadow: $shadow-1;
+  border-radius: 3px;
+  padding: 1.5em;
+  //margin-bottom: 1em;
+  &--big {
+    padding: $lead-triple $lead-single;
+  }
+}

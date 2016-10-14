@@ -8,8 +8,8 @@
 //----------------------------------*\
 // VENDOR
 //----------------------------------*/
-@import 'vendor/bootstrap.scss';
-@import 'vendor/flexboxgrid.scss';
+//@import 'vendor/bootstrap.scss';
+//@import 'vendor/flexboxgrid.scss';
 
 //----------------------------------*\
 // BASE
@@ -26,12 +26,20 @@
 //----------------------------------*\
 // OBJECTS
 //----------------------------------*/
-@import 'objects/_icons.scss';
-@import 'objects/_buttons.scss';
-@import 'objects/_cards.scss';
+@import 'objects/_icon.scss';
+@import 'objects/_button.scss';
+@import 'objects/_card.scss';
 @import 'objects/footer.scss';
+@import 'objects/_grid.scss';
 @import 'objects/_main.scss';
+@import 'objects/_section.scss';
 @import 'objects/_spinner.scss';
+
+//----------------------------------*\
+// COMPONENTS
+//----------------------------------*/
+@import 'components/_challenge.scss';
+@import 'components/_submission.scss';
 
 
 //----------------------------------*\
