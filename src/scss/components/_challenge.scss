@@ -1,8 +1,9 @@
 .challenge {
   position: relative;
   &__prompt {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: $weight-light;
+    line-height: $line-height*1.5;
   }
   &__author {
     margin-bottom: $lead-single;
