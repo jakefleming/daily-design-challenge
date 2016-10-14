@@ -17,7 +17,7 @@
     challenge.updateChallenge();
 
     // Build the leaderboard
-    submissions.buildLeaderboard();
+    designSubmissions.buildLeaderboard();
   }
 
 })(jQuery, window, document);
